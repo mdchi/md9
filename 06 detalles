@@ -1,0 +1,39 @@
+<! -- https://www.codechef.com/html-online-compiler -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>mdc</title>
+  <style type="text/css">
+  body {
+        background-color: black;
+        color: white;
+        display:grid;
+        place-items:center;
+        background-image: url("https://mdchi.github.io/mdc1/fondo.gif");
+        }
+  </style>
+</head>
+<body>
+<center>
+<br>
+<iframe src="https://dolarhoy.com/" scrolling="no" style="height: 305px; width: 300px; margin-top: 10px; margin-left: 10px; border: solid 2px;">
+</iframe>
+<br>
+<img src="https://alternative.me/crypto/fear-and-greed-index.png" alt="Latest Crypto Fear & Greed Index" />
+<br>
+<iframe src="https://www.investing.com/central-banks/fed-rate-monitor" scrolling="no" style="height: 750px; width: 670px; margin-top: 10px; margin-left: 10px; border: solid 2px;">
+</iframe>
+<br>
+<iframe src="https://es.investing.com/economic-calendar/cpi-733" scrolling="no" style="height: 1100px; width: 670px; margin-top: 10px; margin-left: 10px; border: solid 2px;">
+</iframe>
+<br>
+<iframe src="https://es.investing.com/commodities/gold" scrolling="no" style="height: 1100px; width: 670px; margin-top: 10px; margin-left: 10px; border: solid 2px;">
+</iframe>
+<br>
+<br>
+<br>
+</center>
+</body>
+</html>
