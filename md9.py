@@ -74,7 +74,7 @@ def pagina(web):
 
 while True:
     os.system('cls')
-    """wifi('on')
+    wifi('on')
 
     #fead and greed, altcoin season, rsi
     num=1
@@ -156,7 +156,7 @@ while True:
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     driver.get('file:///C:/0python/md9.html')
     time.sleep(3)
-    pyautogui.press('f11')"""
+    pyautogui.press('f11')
 
     #subir archivos a github
     #https://www.youtube.com/watch?v=eQMcIGVc8N0 tutorial  git status
