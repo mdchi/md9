@@ -154,7 +154,7 @@ while True:
     options=Options()
     options.add_experimental_option("detach",True)
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-    driver.get('file:///C:/0python/md9.html')
+    driver.get('file:///C:/0python/index.html')
     time.sleep(3)
     pyautogui.press('f11')
 
