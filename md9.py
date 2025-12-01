@@ -131,7 +131,7 @@ while True:
     num=5
     pagina('https://coinmarketcap.com/es/charts/bitcoin-dominance/')
     zoom1()
-    #coordenada()
+    coordenada()
     captura()
     pngjpg(num)  #numero de archivo
     cerrvent()
@@ -142,7 +142,7 @@ while True:
     #30 indicadores bull market
     num=6
     pagina("https://www.coinglass.com/bull-market-peak-signals")
-    #coordenada()
+    coordenada()
     captura()
     pngjpg(num)  #numero de archivo
     cerrvent()
