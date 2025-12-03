@@ -177,8 +177,9 @@ while True:
     os.system('git remote add origin https://github.com/mdchi/md9.git')   #configura origin = repositorio
     os.system('git push --force -u origin main')    
 
-    wifi('off')
     cambiaventana1()
+    pyautogui.press('f5')
+    wifi('off')
     pausa(86400)  # 86400 seg = 1 dia
     cerrvent()
 
