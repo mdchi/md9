@@ -128,35 +128,35 @@ while True:
     recorte.save("md9-"+str(num)+".jpg")
 
     #dominancia btc
-    num=5
-    pagina('https://coinmarketcap.com/es/charts/bitcoin-dominance/')
-    zoom1()
-    coordenada()
-    captura()
-    pngjpg(num)  #numero de archivo
-    cerrvent()
-    imagen = Image.open("md9-"+str(num)+".jpg")
-    recorte = imagen.crop((310, 270, 625, 425))  #izquierda, arriba, derecha, abajo
-    recorte.save("md9-"+str(num)+".jpg")
+    #num=5
+    #pagina('https://coinmarketcap.com/es/charts/bitcoin-dominance/')
+    #zoom1()
+    #coordenada()
+    #captura()
+    #pngjpg(num)  #numero de archivo
+    #cerrvent()
+    #imagen = Image.open("md9-"+str(num)+".jpg")
+    #recorte = imagen.crop((310, 270, 625, 425))  #izquierda, arriba, derecha, abajo
+    #recorte.save("md9-"+str(num)+".jpg")
 
     #30 indicadores bull market
-    num=6
-    pagina("https://www.coinglass.com/bull-market-peak-signals")
-    coordenada()
-    captura()
-    pngjpg(num)  #numero de archivo
-    cerrvent()
-    imagen = Image.open("md9-"+str(num)+".jpg")
-    recorte = imagen.crop((940, 275, 1275, 380))  #izquierda, arriba, derecha, abajo
-    recorte.save("md9-"+str(num)+".jpg")
+    #num=6
+    #pagina("https://www.coinglass.com/bull-market-peak-signals")
+    #coordenada()
+    #captura()
+    #pngjpg(num)  #numero de archivo
+    #cerrvent()
+    #imagen = Image.open("md9-"+str(num)+".jpg")
+    #recorte = imagen.crop((940, 275, 1275, 380))  #izquierda, arriba, derecha, abajo
+    #recorte.save("md9-"+str(num)+".jpg")
 
     #abre chromium
-    options=Options()
-    options.add_experimental_option("detach",True)
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-    driver.get('file:///C:/0python/index.html')
-    time.sleep(3)
-    pyautogui.press('f11')
+    #options=Options()
+    #options.add_experimental_option("detach",True)
+    #driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    #driver.get('file:///C:/0python/index.html')
+    #time.sleep(3)
+    #pyautogui.press('f11')
 
     #subir archivos a github
     #https://www.youtube.com/watch?v=eQMcIGVc8N0 tutorial  git status
@@ -171,6 +171,6 @@ while True:
     os.system('git push --force -u origin main')    
 
     wifi('off')
-    pausa(7200)
+    pausa(86400)  # 86400 seg = 1 dia
     cerrvent()
 
