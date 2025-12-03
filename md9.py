@@ -40,6 +40,12 @@ def zoom1():
     pyautogui.press('-')
     pyautogui.keyUp('ctrl')
 
+def cambiaventana1():
+    time.sleep(5)
+    pyautogui.keyDown('alt') #cerrar ventana
+    pyautogui.press('tab')
+    pyautogui.keyUp('alt')
+
 def pagabajo():
     pyautogui.press('pagedown')
     time.sleep(2)
@@ -73,6 +79,7 @@ def pagina(web):
     time.sleep(20)
 
 while True:
+    cambiaventana1()
     os.system('cls')
     wifi('on')
 
@@ -171,6 +178,7 @@ while True:
     os.system('git push --force -u origin main')    
 
     wifi('off')
+    cambiaventana1()
     pausa(86400)  # 86400 seg = 1 dia
     cerrvent()
 
