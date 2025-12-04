@@ -147,7 +147,7 @@ while True:
     os.system('git push --force -u origin main')    
 
     cambiaventana1()
-    pausa(600)   # pausa 10 min actualizacion github
+    pausa(180)   # pausa 180 seg actualizacion github
     pyautogui.press('f5')
     wifi('off')
     pausa(14400)  # 14400 seg = 4 hs
